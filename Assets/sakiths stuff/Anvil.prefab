@@ -145,6 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selected: 0
   item: 
+  col: {fileID: 2685984428831044465}
   WoodHave: 0
   IronHave: 0
   GoldHave: 0
