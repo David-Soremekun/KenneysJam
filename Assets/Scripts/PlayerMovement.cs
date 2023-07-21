@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private float inputHorizontal;
     private float inputVertical;
 
-    private void animate()
+    private void Animate()
     {
 
     }
