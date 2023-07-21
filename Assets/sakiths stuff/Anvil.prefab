@@ -15,7 +15,7 @@ GameObject:
   m_Layer: 0
   m_Name: Anvil
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: 691f900eeb33c9244b0bd1d7df73d67b, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -144,8 +144,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selected: 0
+  canCraft: 0
+  crafted: 0
   item: 
   col: {fileID: 2685984428831044465}
+  spwan: {fileID: 991612464962630992, guid: e052009eaceff0a4a8d131024a6244e1, type: 3}
+  o: {fileID: 0}
   WoodHave: 0
   IronHave: 0
   GoldHave: 0
