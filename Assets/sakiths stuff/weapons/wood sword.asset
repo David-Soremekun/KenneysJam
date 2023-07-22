@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6122d65f0506d4949a36d4935405b1a4, type: 3}
-  m_Name: wood sward
+  m_Name: wood sword
   m_EditorClassIdentifier: 
-  weapon_name: wood sward
+  weapon_name: wood sword
   weapon_sprite: {fileID: 21300000, guid: 94087f2d77923174bb03222eded8d282, type: 3}
   owned: 1
   damage_min: 1

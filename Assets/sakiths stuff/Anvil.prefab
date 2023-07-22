@@ -148,9 +148,11 @@ MonoBehaviour:
   crafted: 0
   item: 
   col: {fileID: 2685984428831044465}
+  player: {fileID: 8240968666856875748, guid: e9ece1c09108b1b4b896d0697bd23fef, type: 3}
   spwan: {fileID: 4489124206735588496, guid: 51f56274f84791a40bd94aed7274b080, type: 3}
   o: {fileID: 0}
   WoodHave: 0
   IronHave: 0
   GoldHave: 0
   MythrilHave: 0
+  buttonRage: 2

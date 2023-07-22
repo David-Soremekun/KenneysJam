@@ -18,7 +18,7 @@ public class crafting : MonoBehaviour
     public int IronHave;
     public int GoldHave;
     public int MythrilHave;
-    public float buttonRage = 1;
+    public float buttonRage = 2;
 
 
     private int WoodNeeded;
@@ -36,7 +36,7 @@ public class crafting : MonoBehaviour
         IronNeeded = 5;
         GoldNeeded = 0;
         MythrilNeeded = 0;
-        spwan.GetComponent<craftUi>().setOwner(gameObject);
+        spwan.GetComponent<craftUi>().setOwner(gameObject, player, buttonRage);
     }
 
     // Update is called once per frame
