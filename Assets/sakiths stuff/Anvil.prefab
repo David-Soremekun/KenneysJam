@@ -148,7 +148,7 @@ MonoBehaviour:
   crafted: 0
   item: 
   col: {fileID: 2685984428831044465}
-  spwan: {fileID: 991612464962630992, guid: e052009eaceff0a4a8d131024a6244e1, type: 3}
+  spwan: {fileID: 4489124206735588496, guid: 51f56274f84791a40bd94aed7274b080, type: 3}
   o: {fileID: 0}
   WoodHave: 0
   IronHave: 0

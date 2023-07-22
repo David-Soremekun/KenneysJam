@@ -10,6 +10,7 @@ public class crafting : MonoBehaviour
     public string item;
 
     public BoxCollider2D col;
+    public GameObject player;
     public GameObject spwan;
     public GameObject o;
 
@@ -17,6 +18,7 @@ public class crafting : MonoBehaviour
     public int IronHave;
     public int GoldHave;
     public int MythrilHave;
+    public float buttonRage = 1;
 
 
     private int WoodNeeded;
@@ -54,7 +56,7 @@ public class crafting : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         selected = true;
-        o = Instantiate(spwan, new Vector3(transform.position.x + 1, transform.position.y + 1, transform.position.z), transform.rotation);
+        o = Instantiate(spwan, new Vector3(collision.transform.position.x + buttonRage, collision.transform.position.y + buttonRage, collision.transform.position.z), collision.transform.rotation,gameObject.GetComponentInParent<Canvas>().GetComponent<RectTransform>().transform);
         
     }
     private void OnTriggerExit2D(Collider2D collision)
