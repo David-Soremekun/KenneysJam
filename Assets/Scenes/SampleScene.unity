@@ -688,6 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1304657237}
   - component: {fileID: 1304657238}
+  - component: {fileID: 1304657239}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -730,6 +731,50 @@ MonoBehaviour:
     y: 0
     width: 50
     height: 50
+--- !u!114 &1304657239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304657236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fd42fc7dd02de4b9da37451c100783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playlist:
+  - name: Song 1
+    clip: {fileID: 8300000, guid: 91e69606bbf683a4e8f35360d4611887, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Song 2
+    clip: {fileID: 8300000, guid: 4bfb27c0ec59c30459ce36c80b32bfcc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Song 3
+    clip: {fileID: 8300000, guid: bfa8c26d35ec17248bcfceb8491e533f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Song 4
+    clip: {fileID: 8300000, guid: 2107ba5046d63e149a7c579894b41bf3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  sounds:
+  - name: Walk
+    clip: {fileID: 8300000, guid: 3003d3831bdf9fe448a0cf1cfdb0cb0d, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
 --- !u!1 &1601338162
 GameObject:
   m_ObjectHideFlags: 0

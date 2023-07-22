@@ -3,20 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public Audio[] playlist;
     public Audio[] sounds;
-    public AudioSource audioSource;
+    //public AudioSource audioSource;
 
     private int currentPlayingIndex = 999;
 
     public static AudioManager instance;
     private bool shouldPlayMusic = false;
 
-    public float musicVol;
-    public float effectsVol;
+    private float musicVol;
+    private float effectsVol;
 
     private void Start()
     {
