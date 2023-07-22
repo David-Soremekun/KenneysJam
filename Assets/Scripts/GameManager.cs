@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
+    public List<GameObject> enemyList;
     public int enemyLimit = 20;
     private int currentEnemyCount = 0;
 
@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
                 0);                                             // z position 
 
             GameObject go = Instantiate(ePrefab, spawnLocation, Quaternion.identity);
+            enemyList.Add(go);
             currentEnemyCount += 1; // we made one, so note it down in our var
         }
     }
