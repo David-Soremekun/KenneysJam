@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SideScroller : MonoBehaviour
+public class CameraScript : MonoBehaviour
 {
     public Transform player;
     
