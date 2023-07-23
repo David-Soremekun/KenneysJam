@@ -48,9 +48,10 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"wood","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"iron","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"steel","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"gold","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"mythril","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"test","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"cystel","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-246445365054937120
 MonoBehaviour:
@@ -66,7 +67,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"wood
-      sward","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"weaponStruct,
+      sword","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"weaponStruct,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"iron
+      sword","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"weaponStruct,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"gold
+      sword","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"weaponStruct,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"mytril
+      sword","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"weaponStruct,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"crystel
+      sword","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"weaponStruct,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: 7978e3c048315044a9d5756bd7ed268b, type: 2}
+    - {fileID: 11400000, guid: 3c9bb25880be86e48821125da23506e6, type: 2}
+    - {fileID: 11400000, guid: 1b8f2ee1d0260f94f97d60c3905653e8, type: 2}
+    - {fileID: 11400000, guid: a0f9451e5e0841d408b9c592024437b4, type: 2}
+    - {fileID: 11400000, guid: cd28f59d249413e4eb1f96d17f5f725b, type: 2}

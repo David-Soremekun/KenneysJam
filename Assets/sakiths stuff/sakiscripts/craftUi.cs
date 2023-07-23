@@ -18,7 +18,7 @@ public class craftUi : MonoBehaviour
         else
         {
             //gameObject.GetComponent<RectTransform>().position.Equals(new Vector3(player.transform.position.x + range,player.transform.position.y + range,player.transform.position.z));
-            gameObject.GetComponent<RectTransform>().position.Set(player.transform.position.x + range, player.transform.position.y + range, player.transform.position.z);
+            //gameObject.GetComponent<RectTransform>().position.Set(player.transform.position.x + range, player.transform.position.y + range, player.transform.position.z);
 
         }
         

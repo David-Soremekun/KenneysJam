@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -239, y: 117}
-  m_SizeDelta: {x: 160, y: 48}
+  m_SizeDelta: {x: 5.3333335, y: 1.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7249550658560329326
 CanvasRenderer:
@@ -136,6 +136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SetFordelete: 0
   owner: {fileID: 0}
+  player: {fileID: 8240968666856875748, guid: e9ece1c09108b1b4b896d0697bd23fef, type: 3}
+  range: 2
 --- !u!1 &5134984980870076792
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,8 +230,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 1
+  m_fontSizeBase: 1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
